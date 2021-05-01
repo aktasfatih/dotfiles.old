@@ -150,6 +150,8 @@ nnoremap <space>gpl :Dispatch! git pull<CR>
 nnoremap <C-t> :tabnew<Space>
 inoremap <C-t> <Esc>:tabnew<Space>
 
+nnoremap <C-i> :cd %:h<CR>NERDTreeCWD<CR>
+
 " nickspoons's code for moving the windows
 function! ResizeNext(direction) abort
   if a:direction ==# '<'
