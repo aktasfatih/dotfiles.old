@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s ~/dotfiles/.vimrc ~/.vimrc
+ln -s vimrc_common ~/.vimrc
